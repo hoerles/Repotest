@@ -20,6 +20,7 @@ public class BallScript : MonoBehaviour {
 		PaddleScript paddleScript = paddleObject.GetComponent<PaddleScript>();
 		paddleScript.LoseLife();
 		Debug.Log("vonGitExtensions");
+		Debug.Log("vonGitHub");
 	}
 	
 	void OnCollisionEnter( Collision collision ) { 
