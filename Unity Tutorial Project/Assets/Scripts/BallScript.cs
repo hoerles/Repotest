@@ -19,8 +19,8 @@ public class BallScript : MonoBehaviour {
 		GameObject paddleObject = GameObject.Find("paddle");
 		PaddleScript paddleScript = paddleObject.GetComponent<PaddleScript>();
 		paddleScript.LoseLife();
-		Debug.Log("vonGitExtensions");
-		Debug.Log("vonGitHub");
+		Debug.Log("vonGitExtensions3");
+		Debug.Log("vonGitHub4");
 	}
 	
 	void OnCollisionEnter( Collision collision ) { 
