@@ -1,0 +1,13 @@
+Level 1
+
+- change every Sound in the Project
+
+- Bricks with different color have different Sounds --> Red Brick shouts "RED", Blue Brick shouts "Blue", can choose other colors other words ("Damn", "Coucouroucou", ...) -->
+	record with your Smartphone this words --> convert it to *.wav (this might help --> http://www.zamzar.com/de/convert/3gp-to-mp3/)
+- PowerUps have different Sounds like "PowerUp", "MMMonsterkill", ....	
+- Switch Musik with "S" Button (other music than in the actual project, you can use your "MyBrightSide" - Track :) )
+- Bricks form your Initals (A H) --> Alexander Hör...
+- write your Name on the lower right corner
+- if Ball approaches DeathField --> plays a DeathSound
+
+ignore Level 2 for now
