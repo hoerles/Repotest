@@ -15,7 +15,7 @@ public class BallScript : MonoBehaviour {
 	}
 	
 	public void Die() {
-		Destroy( gameObject );
+		 
 		GameObject paddleObject = GameObject.Find("paddle");
 		PaddleScript paddleScript = paddleObject.GetComponent<PaddleScript>();
 		paddleScript.LoseLife();
@@ -24,6 +24,7 @@ public class BallScript : MonoBehaviour {
 	void OnCollisionEnter( Collision collision ) { 
 		if(collision.gameObject.name == "brickRed"){
 			AudioSource.PlayClipAtPoint(blipAudio[3], transform.position, 1.25f);
+			Debug.Log ("Mamama");
 		}
 		else {
 			AudioSource.PlayClipAtPoint(blipAudio[ Random.Range(0, 2) ], transform.position, .25f);
