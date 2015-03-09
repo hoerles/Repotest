@@ -24,9 +24,10 @@ public class BallScript : MonoBehaviour {
 	void OnCollisionEnter( Collision collision ) { 
 		if(collision.gameObject.name == "brickRed"){
 			AudioSource.PlayClipAtPoint(blipAudio[3], transform.position, 1.25f);
-			Debug.Log ("Guruuuuu");
+			Debug.Log ("Mamamma");
 		}
 		else {
+			Debug.Log ("Tralala");
 			AudioSource.PlayClipAtPoint(blipAudio[ Random.Range(0, 2) ], transform.position, .25f);
 		}
 	}
