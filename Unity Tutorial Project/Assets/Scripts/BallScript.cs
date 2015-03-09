@@ -17,7 +17,7 @@ public class BallScript : MonoBehaviour {
 	public void Die() {		 
 		GameObject paddleObject = GameObject.Find("paddle");
 		PaddleScript paddleScript = paddleObject.GetComponent<PaddleScript>();
-		paddleScript.LoseLife(); 
+		paddleScript.LoseLife();
 		Debug.Log("FromGithub");
 	}
 	
