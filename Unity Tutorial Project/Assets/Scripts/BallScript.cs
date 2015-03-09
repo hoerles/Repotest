@@ -18,7 +18,7 @@ public class BallScript : MonoBehaviour {
 		GameObject paddleObject = GameObject.Find("paddle");
 		PaddleScript paddleScript = paddleObject.GetComponent<PaddleScript>();
 		paddleScript.LoseLife();
-		Debug.Log("FromGithub2");
+		Debug.Log("FromGithub111112");
 	}
 	
 	void OnCollisionEnter( Collision collision ) { 
@@ -26,8 +26,7 @@ public class BallScript : MonoBehaviour {
 			AudioSource.PlayClipAtPoint(blipAudio[3], transform.position, 1.25f);
 			Debug.Log ("Mamamma");
 		}
-		else {
-			Debug.Log ("Tralala");
+		else { 
 			AudioSource.PlayClipAtPoint(blipAudio[ Random.Range(0, 2) ], transform.position, .25f);
 		}
 	}
