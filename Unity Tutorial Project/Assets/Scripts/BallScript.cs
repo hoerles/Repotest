@@ -18,15 +18,15 @@ public class BallScript : MonoBehaviour {
 		GameObject paddleObject = GameObject.Find("paddle");
 		PaddleScript paddleScript = paddleObject.GetComponent<PaddleScript>();
 		paddleScript.LoseLife();
-		Debug.Log("FromGithub111112");
+		Debug.Log("FromGithub3232");
 	}
 	
 	void OnCollisionEnter( Collision collision ) { 
 		if(collision.gameObject.name == "brickRed"){
-			AudioSource.PlayClipAtPoint(blipAudio[3], transform.position, 1.25f);
-			Debug.Log ("Mamamma");
+			AudioSource.PlayClipAtPoint(blipAudio[3], transform.position, 1.25f); 
 		}
-		else { 
+		else {
+			Debug.Log ("Tralala");
 			AudioSource.PlayClipAtPoint(blipAudio[ Random.Range(0, 2) ], transform.position, .25f);
 		}
 	}
